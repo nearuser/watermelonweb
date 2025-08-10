@@ -1,9 +1,31 @@
+// src/App.js
+import React from "react";
+
+// Componentes comunes
+import { Header, Footer } from "./components/common";
+
+// Secciones principales
+import { Hero, About, Projects, Contact } from "./sections";
+
+// Estilos CSS personalizados (si los necesitas)
+// import './styles/globals.css';
+
 function App() {
   return (
-    <div className="min-h-screen bg-blue-500 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        ¡Tailwind CSS funcionando! 🎉
-      </h1>
+    <div className="min-h-screen bg-gray-50">
+      {/* Header fijo */}
+      <Header />
+
+      {/* Contenido principal */}
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
