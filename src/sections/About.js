@@ -32,7 +32,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl transform rotate-3"></div>
               <div className="relative bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-8 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
                 <img
-                  src="https://via.placeholder.com/400x400/6366f1/white?text=Tu+Foto"
+                  src="https://firebasestorage.googleapis.com/v0/b/gasenieurra-c6b7c.firebasestorage.app/o/perfil%2Fgabylan22.jpg?alt=media&token=0653be0b-43d0-4eb5-b5d2-5826561cce9a"
                   alt={`${personalInfo.name} - Profile`}
                   className="w-full max-w-sm mx-auto rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
                 />

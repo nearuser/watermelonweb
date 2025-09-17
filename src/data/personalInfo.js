@@ -2,19 +2,20 @@
 
 export const personalInfo = {
   // Información básica
-  name: "Tu Nombre",
-  title: "Desarrollador Full Stack",
-  subtitle: "especializado en React, Firebase y experiencias web modernas",
+  name: "Gabriel",
+  title: "Fotografo Audiovisual",
+  subtitle:
+    "Bajo el concepto Visión Nativa, desarrollo una práctica visual que entrelaza fotografía, cine documental y memoria. Mi enfoque busca registrar lo íntimo, lo cotidiano y lo ancestral, rescatando relatos locales y vínculos con el paisaje.",
 
   // Descripción personal
-  bio: "Soy un desarrollador Full Stack con experiencia en tecnologías modernas como React, Firebase, Node.js y bases de datos NoSQL. Me encanta trabajar en proyectos que combinen diseño atractivo con funcionalidad robusta.",
+  bio: "Mi trabajo nace de una mirada arraigada al territorio que habito. Crecí observando los cerros que hoy siguen siendo parte de mi horizonte cotidiano. Desde esa primera imagen —una fotografía a mi familia con el cerro de fondo— entendí que mirar era también pertenecer.",
 
   // Información de contacto
   contact: {
-    email: "tu@email.com",
-    github: "@tuusuario",
-    linkedin: "@tuperfil",
-    location: "Tu Ciudad, País",
+    email: "g.asenie.urra@gmail.com",
+    Behance: "/gasenieurra",
+    Instagram: "@chilechicano",
+    location: "Chile Chico, Región de Aysén - Chile",
   },
 
   // Enlaces a redes sociales
@@ -27,42 +28,25 @@ export const personalInfo = {
 
   // Habilidades por categorías
   skills: {
-    frontend: {
-      title: "Frontend",
-      description: "React, Tailwind, JavaScript",
-      technologies: [
-        "React",
-        "JavaScript ES6+",
-        "Tailwind CSS",
-        "HTML5",
-        "CSS3",
-        "TypeScript",
-      ],
+    Fotografia: {
+      title: "Fotografia",
+      description: "Fotografia Digital",
+      technologies: ["Reflex", "Mirrorless", "Iluminación"],
     },
-    backend: {
-      title: "Backend",
-      description: "Firebase, Node.js, APIs",
-      technologies: ["Firebase", "Node.js", "Express", "REST APIs", "GraphQL"],
-    },
-    database: {
-      title: "Database",
-      description: "Firestore, MongoDB",
-      technologies: ["Firestore", "MongoDB", "PostgreSQL", "Redis"],
-    },
-    tools: {
-      title: "Tools",
-      description: "Git, VS Code, Zed",
-      technologies: ["Git", "GitHub", "VS Code", "Zed", "Docker", "Figma"],
+    Edición: {
+      title: "Edición Fotografica",
+      description: "Software de edición digital",
+      technologies: ["Photoshop", "Premier PRO", "Lightroom"],
     },
   },
 
   // Experiencia profesional (opcional)
   experience: [
     {
-      title: "Desarrollador Frontend",
-      company: "Tu Empresa",
-      period: "2023 - Presente",
-      description: "Desarrollo de aplicaciones web con React y Firebase",
+      title: "Amo y señor del callejon velasquez",
+      company: "dond esta el bus amarillo",
+      period: "2020 - Presente",
+      description: "tremenda casa muchacho, sabelo",
     },
     // Agrega más experiencias aquí
   ],
@@ -73,7 +57,7 @@ export const personalInfo = {
       degree: "Tu Carrera",
       institution: "Tu Universidad",
       year: "2020-2024",
-      description: "Especialización en desarrollo web",
+      description: "Universidad Tanto Tomár",
     },
     // Agrega más educación aquí
   ],
@@ -107,7 +91,7 @@ export const sectionTexts = {
   about: {
     title: "Sobre Mí",
     subtitle:
-      "Apasionado por crear soluciones digitales que impacten positivamente en las personas",
+      "Trabajo con comunidades, familias y espacios que me invitan a mirar desde adentro. Creo en una imagen viva, con raíz y contexto. Una imagen que escuche.",
   },
   projects: {
     title: "Mis Proyectos",
