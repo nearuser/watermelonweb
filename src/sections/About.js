@@ -123,12 +123,12 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600 mb-1">3+</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">34+</div>
                 <div className="text-sm text-gray-600">Años de Experiencia</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-green-600 mb-1">
-                  15+
+                  99+
                 </div>
                 <div className="text-sm text-gray-600">
                   Proyectos Completados
@@ -136,7 +136,7 @@ const About = () => {
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-purple-600 mb-1">∞</div>
-                <div className="text-sm text-gray-600">Ganas de Aprender</div>
+                <div className="text-sm text-gray-600">Ganas de tomar</div>
               </div>
             </div>
           </div>
